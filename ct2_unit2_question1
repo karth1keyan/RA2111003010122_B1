@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int m;
+    scanf("%d",&m);
+    (m==1)?printf("january"):(m==2)?printf("Feburary"):(m==3)?printf("March"):
+    (m==4)? printf("April"):(m==5)? printf("May"):(m==6)? printf("June"):
+    (m==7)?printf("July"):(m==8)?printf("Agust"):(m==9)?printf("September"):
+    (m==10)?printf("October"):(m==11)?printf("November"):(m==12)?
+    printf("December"): printf("Invalid Month");
+    return 0;
+}
